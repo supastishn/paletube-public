@@ -1,0 +1,134 @@
+.advertising-portal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 30px; /* Increased padding */
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light gray background */
+    margin: 20px; /* Added margin */
+}
+
+.ad-portal-heading {
+    font-size: 2.5em; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 1em; /* Increased margin */
+}
+
+.ad-portal-subheading {
+    font-size: 1.8em; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 1em; /* Increased margin */
+}
+
+.btn {
+    padding: 12px 25px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size */
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin: 0.7em; /* Increased margin */
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    background-color: #ff4d4d; /* More vibrant red */
+    color: white;
+    border: 1px solid #ff4d4d;
+}
+
+.btn-primary:hover {
+    background-color: #e60000;
+    color: white;
+    border: 1px solid #e60000;
+}
+
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #030303;
+    border: 1px solid #f0f0f0;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+}
+
+h2 {
+    margin-bottom: 1.5em; /* Increased margin */
+}
+
+div {
+    margin-bottom: 1.5em; /* Increased margin */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.7em; /* Increased margin */
+}
+
+input[type="number"],
+input[type="date"],
+select {
+    padding: 0.7em; /* Increased padding */
+    border: 1px solid #e5e5e5;
+    border-radius: 5px; /* Increased border radius */
+    margin-bottom: 1.5em; /* Increased margin */
+    width: 250px; /* Increased width */
+    font-size: 18px; /* Increased font size */
+    background-color: white;
+}
+
+.ad-preview {
+    border: 1px solid #ccc;
+    padding: 15px; /* Increased padding */
+    margin-top: 15px; /* Increased margin */
+    text-align: center;
+    background-color: white; /* Added background color */
+    border-radius: 8px; /* Added border radius */
+}
+
+.ad-image {
+    max-width: 70%; /* Increased max width */
+    max-height: 200px; /* Increased max height */
+    object-fit: contain;
+    margin-bottom: 15px; /* Increased margin */
+    border-radius: 5px; /* Added border radius */
+}
+
+.ad-text {
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5em; /* Added margin */
+}
+
+.ad-type-selection {
+  display: flex;
+  gap: 15px; /* Increased gap */
+  margin-bottom: 1.5em; /* Increased margin */
+  justify-content: center; /* Centered the radio buttons */
+}
+
+.ad-type-selection label {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Increased gap */
+  cursor: pointer;
+  font-size: 1.2em; /* Increased font size */
+}
+
+.ad-type-selection input[type="radio"] {
+  margin: 0;
+  width: auto;
+  transform: scale(1.2); /* Increased size of radio buttons */
+}
+
+.ad-video {
+  border-radius: 5px;
+}
